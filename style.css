@@ -178,3 +178,45 @@ button:hover {
     margin: auto;
     padding: 25px 0px 25px 0px
 }
+
+#FAQs {
+    color: #ffffff;
+}
+
+.faqs-section {
+    padding: 2em;
+    text-align: center;
+}
+
+.faqs-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+
+}
+
+.faq-item {
+    background-color: #5b4e4e;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease-in-out;
+    font-size: 1.1rem;
+}
+
+.faq-item:hover {
+    transform: scale(1.02);
+}
+
+.faqs-content h2 {
+    color: #000000;
+}
+
+.faq-item h3 {
+    color: #000000;
+}
+
+.faq-item p {
+    color: #ffffff;
+    line-height: 1.6;
+}
