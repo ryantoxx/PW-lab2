@@ -84,3 +84,67 @@ ul {
 li {
     margin-bottom: 10px;
 }
+
+#pricing {
+    padding: 2em;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.pricing-content {
+    background-color: #5b4e4e;
+    max-width: 665px;
+    margin: 0 auto;
+    color: #ffffff;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 35px 0 35px 0;
+    font-size: 1.1rem;
+}
+
+
+.book-type {
+    background-image: url('imgs/back-hero.jpg');
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.book-type h3 {
+    font-size: 1.5rem
+}
+
+.book-type p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.book-info {
+    margin-bottom: 20px;
+}
+
+.example-books {
+    font-size: 0.8em;
+}
+
+button {
+    background-color: #269b2a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b966e;
+}
