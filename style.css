@@ -60,8 +60,6 @@ nav a {
     font-weight: bold; 
 }
 
-
-
 .hero-content {
     background-image: url('imgs/backk.jpg'); 
     background-size: cover;
@@ -80,6 +78,8 @@ nav a {
     text-align: center;
     margin-bottom: 10px;
     margin-top: 10px;
+    padding: 0px 0px 10px 0px; 
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
@@ -162,6 +162,49 @@ button:hover {
     background-color: #6b966e;
 }
 
+.mobile-section {
+    background-image: url('imgs/mob-ver-background.jpg');
+    display: none; 
+    background-color:#5b4e4e;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.mobile-section h2 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mobile-section p {
+    color: #ffffff;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.mobile-section ul {
+    list-style-type: decimal;
+    padding-left: 20px;
+    color: #000000;
+    font-style: italic;
+}
+
+.mobile-section li {
+    margin-bottom: 10px;
+    color: #ffffff;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mobile-section {
+        display: block;
+    }
+}
 
 #about {
     color: #ffffff;
@@ -173,6 +216,7 @@ button:hover {
     color: #ffffff;
     margin-bottom: 20px;
     font-size: 1.5rem;
+    padding: 10px 0px 0px 0px;
 }
 
 #about p {
@@ -181,7 +225,6 @@ button:hover {
     font-size: 1.01rem;
 }
 
-
 .about-content {
     max-width: 800px;
     font-size: 1.5rem;
@@ -189,7 +232,9 @@ button:hover {
     border-radius: 10px;
     text-align: center;
     margin: auto;
-    padding: 0px 20px 25px 20px
+    padding: 0px 20px 25px 20px;
+    font-weight: bold;
+
 }
 
 #FAQs {
@@ -199,13 +244,14 @@ button:hover {
 .faqs-section {
     padding: 2em;
     text-align: center;
+    
 }
 
 .faqs-content {
     max-width: 800px;
     margin: 0 auto;
     font-size: 1.5rem;
-
+    font-weight: bold;
 }
 
 .faq-item {
@@ -215,6 +261,7 @@ button:hover {
     margin: 20px 0;
     transition: transform 0.3s ease-in-out;
     font-size: 1.1rem;
+    font-weight: lighter;
 }
 
 .faq-item:hover {
