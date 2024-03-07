@@ -289,21 +289,21 @@ button:hover {
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    opacity: 0; /* Initially hidden */
-    animation: mascotAppear 0.5s ease-out 2s forwards; /* Delayed appearance */
+    opacity: 0; 
+    animation: mascotAppear 0.5s ease-out 2s forwards; 
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-direction: alternate; /* Make it alternate between tilt left and right */
-    transform-origin: bottom center; /* Set the rotation origin */
+    animation-direction: alternate; 
+    transform-origin: bottom center; 
 }
 
 .mascot:hover {
-    transform: scale(1.2) rotate(0deg); /* Set the rotation angle to 0 when hovered */
+    transform: scale(1.2) rotate(0deg); 
 }
 
 @keyframes mascotAppear {
     to {
-        opacity: 1; /* Make mascot visible after animation */
+        opacity: 1; 
     }
 }
 
@@ -312,7 +312,7 @@ button:hover {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-50px); /* Adjust the jump height */
+        transform: translateY(-50px); 
     }
 }
 
@@ -323,7 +323,7 @@ button:hover {
     background-size: cover;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    animation: mascotJump 1.5s ease-in-out infinite; /* Jump every 1.5 seconds */
+    animation: mascotJump 1.5s ease-in-out infinite; 
 }
 
 .mascot-message {
@@ -341,7 +341,6 @@ button:hover {
 .mascot:hover .mascot-message {
     display:block;
 }
-
 
 footer {
     background-color: #333;
