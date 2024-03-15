@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -61,7 +65,7 @@ nav a {
 }
 
 .hero-content {
-    background-image: url('imgs/backk.jpg'); 
+    background-image: url('../imgs/backk.jpg'); 
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -120,7 +124,7 @@ li {
 
 
 .book-type {
-    background-image: url('imgs/back-hero.jpg');
+    background-image: url('../imgs/back-hero.jpg');
     background-color: #ffffff;
     padding: 2em;
     border-radius: 10px;
@@ -163,7 +167,7 @@ button:hover {
 }
 
 .mobile-section {
-    background-image: url('imgs/mob-ver-background.jpg');
+    background-image: url('../imgs/mob-ver-background.jpg');
     display: none; 
     background-color:#5b4e4e;
     padding: 20px;
@@ -290,7 +294,7 @@ button:hover {
     align-items: center;
     cursor: pointer;
     opacity: 0; 
-    animation: mascotAppear 0.5s ease-out 2s forwards; 
+    animation: mascotAppear 0.5s ease-out 3s forwards; /* delay */
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate; 
@@ -319,7 +323,7 @@ button:hover {
 .mascot-image {
     width: 100px;
     height: 100px;
-    background-image: url('imgs/mascot.png');
+    background-image: url('../imgs/mascot.png');
     background-size: cover;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
