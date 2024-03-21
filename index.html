@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Bookstore</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    <title>Local Bookstore</title>
 </head>
 
 <body>
@@ -21,7 +22,24 @@
         </nav>
     </header>
 
-    <section id="home" class="hero-content">
+    <section id="home" class="hero-content bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Discover a World of Literature</h2>
+            <p class="text-center">We provide a carefully curated collection of books, embracing a passion for
+                literature.</p>
+            <ul>
+                <li><strong>What we do:</strong> Curate a diverse collection of books</li>
+                <li><strong>Why we're different:</strong> Personalized recommendations and a cozy reading atmosphere
+                </li>
+                <li><strong>Key benefits:</strong> High-quality literature, community events, and excellent customer
+                    service</li>
+                <li><strong>How to get started:</strong> Visit our bookstore or explore our online catalog</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- <section id="home" class="hero-content">
         <h2>Discover a World of Literature</h2>
         <p>We provide a carefully curated collection of books, embracing a passion for literature.</p>
         <ul>
@@ -32,77 +50,89 @@
                 service</li>
             <li><strong>How to get started:</strong> Visit our bookstore or explore our online catalog</li>
         </ul>
-    </section>
-    
-    <section id="pricing">
-        <div class="pricing-content">
-            <h2>Our Pricing Plans</h2>
-            <p>Choose the plan that suits your reading preferences and budget the best and enjoy the magic of reading.</p>
+    </section> -->
 
-            <div class="book-type" id="free-books">
-                <div class="book-info">
-                    <h3>Free Books</h3>
-                    <p>Explore our selection of free books.</p>
-                    <button>Order Now</button>
+    <section id="pricing" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Pricing Plans</h2>
+            <p class="text-center">Choose the plan that suits your reading preferences and budget the best and enjoy the
+                magic of reading.</p>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="book-type bg-white p-4 mb-4">
+                        <div class="book-info">
+                            <h3>Free Books</h3>
+                            <p>Explore our selection of free books.</p>
+                            <button class="btn btn-success">Order Now</button>
+                        </div>
+                        <div class="example-books">
+                            <p>BESTSELLERS</p>
+                            <ul>
+                                <li>Harry Potter</li>
+                                <li>The Hunger Games</li>
+                                <li>Pride and Prejudice</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="example-books">
-                    <p>BESTSELLERS</p>
-                    <ul>
-                        <li>Harry Potter</li>
-                        <li>The Hunger Games</li>
-                        <li>Pride and Prejudice</li>
-                    </ul>
+
+                <div class="col-lg-4">
+                    <div class="book-type bg-white p-4 mb-4">
+                        <div class="book-info">
+                            <h3>Standard Books</h3>
+                            <p>Discover our standard collection of quality literature.</p>
+                            <button class="btn btn-success">Order Now</button>
+                        </div>
+                        <div class="example-books">
+                            <p>BESTSELLERS</p>
+                            <ul>
+                                <li>City of Ashes - $15</li>
+                                <li>Clockwork Angel - $18</li>
+                                <li>Graceling - $20</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="book-type bg-white p-4 mb-4">
+                        <div class="book-info">
+                            <h3>Rare Books</h3>
+                            <p>Indulge in our rare and exclusive book offerings.</p>
+                            <button class="btn btn-success">Order Now</button>
+                        </div>
+                        <div class="example-books">
+                            <p>BESTSELLERS</p>
+                            <ul>
+                                <li>First Folio - $50</li>
+                                <li>Casino Royale - $75</li>
+                                <li>In Our Time - $100</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="book-type" id="standard-books">
-                <div class="book-info">
-                    <h3>Standard Books</h3>
-                    <p>Discover our standard collection of quality literature.</p>
-                    <button>Order Now</button>
-                </div>
-                <div class="example-books">
-                    <p>BESTSELLERS</p>
-                    <ul>
-                        <li>City of Ashes - $15</li>
-                        <li>Clockwork Angel - $18</li>
-                        <li>Graceling - $20</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="book-type" id="rare-books">
-                <div class="book-info">
-                    <h3>Rare Books</h3>
-                    <p>Indulge in our rare and exclusive book offerings.</p>
-                    <button>Order Now</button>
-                </div>
-                <div class="example-books">
-                    <p>BESTSELLERS</p>
-                    <ul>
-                        <li>First Folio - $50</li>
-                        <li>Casino Royale - $75</li>
-                        <li>In Our Time - $100</li>
-                    </ul>
-                </div>
-            </div>
-
         </div>
     </section>
 
-<section class="mobile-section">
-    <h2>Exclusive Mobile Offers</h2>
-    <p>As a thank you for choosing our bookstore on your mobile device, we're offering you special discounts and promotions!</p>
-    <p>Unlock the magic of reading with these limited-time mobile-only deals:</p>
-    
-    <ul>
-        <li>10% off your first mobile order</li>
-        <li>Buy one, get one free</li>
-        <li>Free shipping for mobile app users</li>
-    </ul>
-    
-    <p>Don't miss out on these exclusive offers. Download our mobile app now and start saving on your favorite books!</p>
-</section>
+
+    <section class="mobile-section">
+        <h2>Exclusive Mobile Offers</h2>
+        <p>As a thank you for choosing our bookstore on your mobile device, we're offering you special discounts and
+            promotions!</p>
+        <p>Unlock the magic of reading with these limited-time mobile-only deals:</p>
+
+        <ul>
+            <li>10% off your first mobile order</li>
+            <li>Buy one, get one free</li>
+            <li>Free shipping for mobile app users</li>
+        </ul>
+
+        <p>Don't miss out on these exclusive offers. Download our mobile app now and start saving on your favorite
+            books!</p>
+    </section>
 
     <section id="about">
         <div class="about-content">
@@ -116,7 +146,36 @@
             </p>
         </div>
     </section>
-    
+
+    <section class="mobile-section">
+        <h2>Exclusive Mobile Offers</h2>
+        <p>As a thank you for choosing our bookstore on your mobile device, we're offering you special discounts and
+            promotions!</p>
+        <p>Unlock the magic of reading with these limited-time mobile-only deals:</p>
+
+        <ul>
+            <li>10% off your first mobile order</li>
+            <li>Buy one, get one free</li>
+            <li>Free shipping for mobile app users</li>
+        </ul>
+
+        <p>Don't miss out on these exclusive offers. Download our mobile app now and start saving on your favorite
+            books!</p>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>Welcome to Your Local Bookstore, where our passion for literature meets your reading desires. Our
+                bookstore is more than just a place to purchase books. It's a communit for book enthusiasts.</p>
+            <p>At Your Local Bookstore, we believe in the magic of storytelling and the power of a good book to
+                transport you to different worlds. Whether you're a seasoned reader or just starting your literary
+                journey, we have something for everyone.</p>
+            <p>Visit our bookstore today and immerse yourself in a world of imagination, knowledge, and literary joy.
+            </p>
+        </div>
+    </section>
+
     <section id="FAQs" class="faqs-section">
         <div class="faqs-content">
             <h2>Frequently Asked Questions</h2>
