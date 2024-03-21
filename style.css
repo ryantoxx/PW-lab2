@@ -253,17 +253,15 @@ button:hover {
 
 }
 
-#FAQs {
-    color: #ffffff;
+#FAQs h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #000000;
 }
 
 .faqs-section {
     padding: 2em;
-    text-align: center;
-    text-align: center;
-    
     text-align: center; 
-    
 }
 
 .faqs-content {
@@ -299,7 +297,6 @@ button:hover {
     color: #ffffff;
     line-height: 1.6;
 }
-
 .mascot {
     position: fixed;
     bottom: 10px;
