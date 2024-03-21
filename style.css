@@ -6,13 +6,30 @@ body {
 }
 
 header {
-    color: #ffffff;
-    padding: 300px;
-    text-align: center;
+    text-align: center; 
+    margin-top: 50px;
+    
+}
+
+nav {
+    display: inline-block; 
+    
+}
+
+nav a {
+    color: #281616;
+    margin: 0 10px; 
+    text-decoration: none;
+    font-size: 1.5rem; 
+    font-weight: bold; 
+}
+
+nav a:hover {
+    color: #6b966e;
 }
 
 .head img {
-    width:100%;
+    width: 100%;
 }
 
 .head h1 {
@@ -26,7 +43,7 @@ h1 {
 }
 
 .head img {
-    width:100%;
+    width: 100%;
 }
 
 .head h1 {
@@ -44,22 +61,6 @@ h1 {
     font-size: 1.2rem;
 }
 
-nav {
-    position: absolute;
-    top: 2.7%;
-    transform: translateY(-50%); 
-    left: 50%;
-    transform: translateX(-50%); 
-}
-
-nav a {
-    color: #000000; 
-    margin-left: 15px; 
-    text-decoration: none;
-    font-size: 1.8rem;
-    font-weight: bold; 
-}
-
 .hero-content {
     background-image: url('imgs/backk.jpg'); 
     background-size: cover;
@@ -69,7 +70,7 @@ nav a {
     border-radius: 10px;
     width: 90%; 
     max-width: 600px; 
-    margin: 35px auto 0 auto;
+    margin: 10px auto 0 auto;
     font-size: 1rem; 
 }
 
@@ -98,10 +99,11 @@ li {
     margin-bottom: 10px;
 }
 
-#pricing {
+#pricing  {
     padding: 2em;
     text-align: center;
     font-size: 1.5rem;
+    
 }
 
 .pricing-content {
@@ -115,9 +117,8 @@ li {
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 35px 0 35px 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
-
 
 .book-type {
     background-image: url('imgs/back-hero.jpg');
@@ -128,7 +129,7 @@ li {
     width: 100%;
     margin: 10px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction:column;
     justify-content: space-between;
 }
 
@@ -142,7 +143,7 @@ li {
 }
 
 .book-info {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .example-books {
@@ -244,6 +245,9 @@ button:hover {
 .faqs-section {
     padding: 2em;
     text-align: center;
+    text-align: center;
+    
+    text-align: center; 
     
 }
 
@@ -269,7 +273,7 @@ button:hover {
 }
 
 .faqs-content h2 {
-    color: #000000;
+    color: #030303;
 }
 
 .faq-item h3 {
@@ -290,7 +294,7 @@ button:hover {
     align-items: center;
     cursor: pointer;
     opacity: 0; 
-    animation: mascotAppear 0.5s ease-out 2s forwards;
+    animation: mascotAppear 1.5s ease-out 3s forwards;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate; 
