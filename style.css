@@ -116,9 +116,7 @@ li {
     font-weight: bold;
 }
 
-
-
-.pricing-content {
+ /* .pricing-content {
     background-color: #5b4e4e;
     max-width: 665px;
     margin: 0 auto;
@@ -127,10 +125,10 @@ li {
     border-radius: 10px;
     justify-content: space-around;
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     padding: 35px 0 35px 0;
-    font-size: 1rem;
-}
+    font-size: 1rem; 
+}  */
 
 .book-type {
     background-image: url('imgs/back-hero.jpg');
@@ -140,9 +138,9 @@ li {
     max-width: 300px;
     width: 100%;
     margin: 10px;
-    display: flex;
-    flex-direction:column;
-    justify-content: space-between;
+    /* display: flex; */
+    /* flex-direction:column; */
+    /* justify-content: space-between; */
     height: 250px; 
     margin-top: 30px;
     color: #ffffff;
@@ -165,18 +163,18 @@ li {
     font-size: 0.8em;
 }
 
-button {
+/* button {
     background-color: #269b2a;
     color: white;
     padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
+} */
 
-button:hover {
+/* button:hover {
     background-color: #6b966e;
-}
+} */
 
 .mobile-section {
     background-image: url('imgs/mob-ver-background.jpg');
@@ -264,12 +262,12 @@ button:hover {
     text-align: center; 
 }
 
-.faqs-content {
+/* .faqs-content {
     max-width: 800px;
     margin: 0 auto;
     font-size: 1.5rem;
     font-weight: bold;
-}
+} */
 
 .faq-item {
     background-color: #5b4e4e;
